@@ -3,4 +3,5 @@ def reverse_each_word(sentence)
   sentence.split(" ").each do |word|
     new_sentence << word.reverse
   end
+  new_sentence
 end
